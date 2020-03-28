@@ -16,57 +16,27 @@ body
 	background-color: #2e2e1f;
 }
 
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 
 h1 
 {
     color: #ffffff;
 	text-align:left;
-	font-size: 20px;
+	font-size:20px;
 }
 
-h2,h3
+table, th, td, tr
 {
-	color: #3399ff;
-}
-
-h4
-{
-	color: #000000;
-	font-size: 12px;
-}
-
-p 
-{
-	color: #000000;
-}
-
-section 
-{
-    display: block;
-} 
-
-aside
-{
-	color: #3399ff;
-}
-
-table, th, td 
-{
-   text-align:left;
-   border: 1px solid black;
-   font-size: 20px;
-   padding: 10px 10px;
-   margin: 10px 10px;
- 
-} 
-
-tr
-{
-	color: #ffffff;
+    text-align:left;
+    border: 1px solid black; 
+    font-size:20px;
+    color: #ffffff;
 	background-color: #003333;
-	text-align:left;
-}
-
+	min-width: 300px;
+} 
 
 
 .button 
@@ -74,161 +44,14 @@ tr
   background-color: #003333;
   border: 1px solid black;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size:20px;
+  padding: 20px 30px;
 }
 
 .selection
 {
 	font-size: 20px;	
-}
-#a_breadcrumb
-{
-	color: #0066cc;
-	text-decoration: underline;
-	font-weight: bold;
-}
-
-/* =============================== */
-/*Aligns input labels in the apply form*/  
-label
-{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 180px;
-}
-
-input
- {
-  display: inline-block;
-}
-
-/* =============================== */
-/*LEFT aligned typography*/
-#p_left
-{
-	color: #000000;
-	text-align:left;
-	font-size: 150%;
-	font-weight: bold;
-}
-
-#p_left_fontchange
-{
-	color: #000000;
-	font-family: "Courier New", Monospace;
-}
-
-#p_hex
-{
-	color: #009900;
-}
-
-#p_left_blue
-{
-	color: #3399ff;
-	text-align:left;
-}
-
-a.left_hyper
-{
-	color: #ff1a1a;
-	text-align:left;
-	text-decoration: underline;
-}
-
-
-
-/* =============================== */
-/*RIGHT aligned typography*/
-#p_right
-{
-	color: #000000;
-	text-align:right;
-}
-
-#p_right_pad
-{
-	color: #000000;
-	float:right;
-	padding:40px;
-}
-
-#p_right_border
-{
-	color: #000000;
-	float:right;
-	border-style: double;
-	padding:40px;
-}
-
-/* =============================== */
-/*CENTER aligned typography*/
-#p_border
-{
-	color: #3399ff;
-    text-align:center;
-	border-style: solid;
-}
-
-#p_center
-{
-	color: #3399ff;
-    text-align:center;
-	
-}
-
-#section_border
-{
-	color: #3399ff;
-    text-align:center;
-	border-style: solid;
-}
-
-#p_center_hyper
-{
-	color: #ff1a1a;
-	text-align:center;
-	text-decoration: underline;
-}
-
-/* =============================== */
-/* NAVIGATION */
-#nav 
-{
-	text-align:center;
-}
-
-#nav li 
-{
-	display:inline;
-}
-
-#nav a
-{
-	color: #3399ff;
-	text-decoration:none; 
-	padding:0 30px;
-}
-
-
-/* =============================== */
-/* IMAGE class*/
-img.shown
- {
-   max-width: 100%;
-   height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-#img_size
-{
-	height: 200px;
-	width: 200px;
 }
