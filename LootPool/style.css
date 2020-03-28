@@ -17,14 +17,14 @@ body
 }
 
 .content {
-  max-width: 50%;
+  max-width: 80%;
   margin: auto;
 }
 
 h1 
 {
     color: #ffffff;
-	text-align:center;
+	text-align:left;
 	font-size:20px;
 }
 
@@ -55,5 +55,5 @@ table, th, td, tr
 
 .selection
 {
-	font-size: 20px;	
+	font-size: 40px;	
 }
