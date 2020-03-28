@@ -60,6 +60,18 @@ tr
 	 background-color: #003333;
 }
 
+.button 
+{
+  background-color: #003333;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 #a_breadcrumb
 {
 	color: #0066cc;
