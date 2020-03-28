@@ -21,7 +21,7 @@ h1
 {
     color: #ffffff;
 	text-align:left;
-	font-size: 50vw;
+	font-size: 50px;
 }
 
 h2,h3
@@ -54,13 +54,17 @@ table, th, td
 {
    text-align:center;
    border: 1px solid black;
-   font-size: 50vw;
+   font-size: 50px;
 } 
 
 tr
 {
 	color: #ffffff;
 	 background-color: #003333;
+}
+
+@-o-viewport {
+	width: device-width;
 }
 
 .button 
@@ -72,12 +76,12 @@ tr
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 50vw;
+  font-size: 50px;
 }
 
 .selection
 {
-	font-size: 50vw;	
+	font-size: 50px;	
 }
 #a_breadcrumb
 {
