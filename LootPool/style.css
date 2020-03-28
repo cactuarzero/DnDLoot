@@ -17,7 +17,7 @@ body
 }
 
 .content {
-  max-width: 500px;
+  max-width: 50%;
   margin: auto;
 }
 
@@ -41,14 +41,15 @@ table, th, td, tr
 
 .button 
 {
-  background-color: #003333;
+  background-color: #d6d6c2;
   border: 1px solid black;
-  color: white;
+  border-radius: 8px;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size:20px;
-  padding: 20px 30px;
+  font-size:30px;
+  padding: 30px 50px;
 }
 
 .selection
