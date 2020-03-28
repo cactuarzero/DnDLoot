@@ -52,20 +52,21 @@ aside
 
 table, th, td 
 {
-   text-align:center;
+   text-align:left;
    border: 1px solid black;
-   font-size: 20px;
+   font-size: 2vw;
+   padding: 1vw 1vw;
+ 
 } 
 
 tr
 {
 	color: #ffffff;
-	 background-color: #003333;
+	background-color: #003333;
+	text-align:left;
 }
 
-@-o-viewport {
-	width: device-width;
-}
+
 
 .button 
 {
