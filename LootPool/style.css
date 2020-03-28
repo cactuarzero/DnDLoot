@@ -16,16 +16,12 @@ body
 	background-color: #2e2e1f;
 }
 
-div
-{
-	 width:80%;
-	 height: 80%;
-}
+
 h1 
 {
     color: #ffffff;
 	text-align:left;
-	font-size: 40px;
+	font-size: 100px;
 }
 
 h2,h3
@@ -58,7 +54,7 @@ table, th, td
 {
    text-align:center;
    border: 1px solid black;
-   font-size: 20px;
+   font-size: 50px;
 } 
 
 tr
@@ -76,12 +72,12 @@ tr
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .selection
 {
-	font-size: 30px;	
+	font-size: 50px;	
 }
 #a_breadcrumb
 {
