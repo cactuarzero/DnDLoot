@@ -21,7 +21,7 @@ h1
 {
     color: #ffffff;
 	text-align:left;
-	font-size: 50px;
+	font-size: 100px;
 }
 
 h2,h3
@@ -54,7 +54,7 @@ table, th, td
 {
    text-align:center;
    border: 1px solid black;
-   font-size: 50px;
+   font-size: 100px;
 } 
 
 tr
@@ -76,12 +76,12 @@ tr
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 50px;
+  font-size: 100px;
 }
 
 .selection
 {
-	font-size: 50px;	
+	font-size: 100px;	
 }
 #a_breadcrumb
 {
